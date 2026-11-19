@@ -1,0 +1,38 @@
+body {
+ background-color: #C89D54;
+ color: #2e072f;
+ font-family: Arial;
+ line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #2e072f;
+}
+
+.cartao {
+  background-color: #FAF6F0;    
+  border: 2px solid #350830;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 5000px;
+}
+
+.area-imagem {
+  text-align: left;
+}
+
+.foto-destaque {
+  width: 850px;
+  border: 2px solid #350830;
+  border-radius: 10px;
+
+}
+fieldset{
+  border: 2px solid #3f0228; 
+  border-radius:50px;    
+  padding: 20px;
+}
+input:focus, button:focus {
+  outline: 4px solid #86e3ec;
+}
+

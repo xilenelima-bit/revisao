@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces & Delícias</title>
+<link rel="stylesheet" href="meu.css">
+</head>
+<body>
+
+  <header>
+    <h1>Doces & Delícias <br> Sobremesas Gourmet</h1>
+  </header>
+  <main>
+    <section class="cartao">
+      <h2></h2>
+      <div class="area-imagem">
+    
+        <img 
+          src="doces e delicias.jpeg" 
+          alt="A imagem mostra a frente da loja Doces & Delícias, sobremesas gourmet, vitrine com bolos e doces." 
+          class="foto-destaque"
+        >
+      </div>
+      <p>A Doces e Delícias nasceu da paixão por transformar ingredientes selecionados  em experiências inesquecíveis. <br>Especializada em confeitaria fina e sobremesas artesanais,<br> a loja une técnicas clássicas a um toque contemporâneo para entregar sabor, textura e beleza em cada detalhe.</p>
+      <h3>Nossos diferenciais: </h3>
+      <ul>
+        <li>Ingredientes Selecionados: </li>
+        <li>Produção Artesanal:</li>
+        <li>Apresentação Sofisticada:</li>
+        <li>Atendimento Acolhedor: </li>
+      </ul>
+      <form>
+        <h3>Formulário de Cadastro ou Pedido</h3>
+        <p>
+          <label for="nome-usuario">Seu Nome:</label>
+           <input type="text" id="nome-usuario" minlength="3" aria-describedby="dica-nome" placeholder="Digite seu nome" required>
+        </p>
+        <p>
+          <label>Seu E-mail:</label>
+          <input type="email" id="email-visitante" placeholder="Digite seu email" required>
+        </p>
+        <fieldset>
+          <legend>Faça seu pedido:</legend>
+          <input type="radio" id="op1" name="escolha" value="opcao1">
+          <label for="op1">Pedido para ser entregue</label><br>
+          <input type="radio" id="op2" name="escolha" value="opcao2">
+          <label for="op2">Retirar na loja</label>
+        </fieldset>
+        <fieldset>
+          <legend>Selecione o que deseja:</legend>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Fatias & Tortas Gourmet</label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Caixa Degustação (6 ou 12 unidades) </label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Caixa Presente Especial  </label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Brownies & Cookies Recheados </label>
+        </fieldset>
+    
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Exercício de Revisão - Feito em aula</p>
+  </footer>
+</body>
+</html>
